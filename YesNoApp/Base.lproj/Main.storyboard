@@ -20,16 +20,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbL-GF-6Pe">
-                                <rect key="frame" x="196.66666666666666" y="360.33333333333331" width="0.0" height="131.33333333333331"/>
+                                <rect key="frame" x="196.66666666666666" y="426" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="110"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4y-pH-GxG">
-                                <rect key="frame" x="173" y="662" width="120" height="36"/>
+                                <rect key="frame" x="125.66666666666667" y="768" width="141.66666666666663" height="36"/>
                                 <color key="backgroundColor" red="0.43564862009999999" green="0.13068461419999999" blue="0.48630017040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Get Answer">
+                                <buttonConfiguration key="configuration" style="plain" title="Get an answer">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -49,11 +49,10 @@
                             <constraint firstAttribute="trailing" secondItem="MOH-XB-BpV" secondAttribute="trailing" id="4FZ-hI-jk4"/>
                             <constraint firstItem="MOH-XB-BpV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Lsg-3h-lNy"/>
                             <constraint firstItem="gbL-GF-6Pe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mrc-WK-SRZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k4y-pH-GxG" secondAttribute="trailing" constant="100" id="RIi-9d-SSm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k4y-pH-GxG" secondAttribute="bottom" constant="120" id="SZr-Yb-vA6"/>
-                            <constraint firstItem="MOH-XB-BpV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y6d-Ry-bi9"/>
+                            <constraint firstItem="k4y-pH-GxG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PSq-aB-2UP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k4y-pH-GxG" secondAttribute="bottom" constant="14" id="W4n-30-GVd"/>
+                            <constraint firstItem="MOH-XB-BpV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y6d-Ry-bi9"/>
                             <constraint firstItem="gbL-GF-6Pe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kJ7-mo-bUJ"/>
-                            <constraint firstItem="gbL-GF-6Pe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-491.66666666666669" id="l9g-RI-gzg"/>
                             <constraint firstAttribute="bottom" secondItem="MOH-XB-BpV" secondAttribute="bottom" id="pk1-Yn-Kym"/>
                         </constraints>
                     </view>
